@@ -1,0 +1,319 @@
+*{
+    text-decoration: none;
+    padding: none;
+    margin: none;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.imgs-produtos{
+    border-radius: 10px;
+}
+
+/*----CSS INICIO header----*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+.Logo{
+    border-radius: 10px;
+}
+
+a:hover{
+    transition: 2,0 all;
+    color: rgb(250, 250, 250);
+
+}
+
+a{
+    color: #44d62c;
+}
+
+nav{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.logo-header{
+    padding-right: 20px;
+}
+
+.navegador{
+    padding-left: 200px;
+}
+
+.banners{
+    padding-top: 10px;
+}
+/*---- CSS BARRA DE PESQUISA----*/
+.search-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.search-icon::before {
+    content: '';
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2px solid #05f260;
+}
+
+.search-icon::after {
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #05f238;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    transition: all 0.7s;
+}
+
+.search-input:focus {
+    width: 200px;
+    box-shadow: 2px 2px 5px #777;
+}
+
+.search-input:valid {
+    width: 200px;
+}
+/*---- CSS BARRA DE PESQUISA----*/
+
+/*----CSS FIM header----*/
+
+/*---------------------CSS main-----------------------*/
+
+
+/*CSS MAIN INDEX */
+.banner1{
+    padding-top: 10px;
+}
+
+.banner2{
+    padding-top: 10px;
+}
+
+.Linha{
+    background-color: #44d62c;
+    height: 1px;
+    width: 100%;
+    padding: 0.5px;
+}
+
+.produtos-home{
+    justify-content: space-around;
+    display: flex;
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.produtos-destaque{
+    transition: 0.5s;
+}
+
+.produtos-destaque:hover{
+    transform: scale(105%);
+}
+
+.button-buy{
+    color: rgb(0, 0, 0);
+    background-color: #44d62c;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    box-shadow: #44d62c;
+    border: none;
+}
+
+.button-buy:hover{
+    background-color: rgb(8, 231, 101);
+}
+
+.produtos-destaque{
+    padding: 50px;
+}
+
+.titulo-destaque{
+    padding-top: 100px;
+}
+
+/*CSS MAIN INDEX */
+
+/* CSS PRODUTOS */
+.titulo-produtos{
+    font-size: 40PX;
+    padding-top: 40px;
+    color: #44d62c;
+}
+/* CSS PRODUTOS */
+
+
+/* CSS MAIN QUEMSOMOS */
+.QuemSomos-titles{
+    background-image: url(../imagens/backgroundTitle.gif);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 100px;
+}
+
+.QuemSomos-title2{
+    font-size: 40px;
+    background-image: url(../imagens/backgroundTitle.gif);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Conteudo-QuemSomos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens-quemSomos{
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.texto-quem-somos{
+    font-size: 19px; 
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parcerias{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20PX;
+    padding-bottom: 10px;
+}
+
+.imagens-quemSomos-parcerias:hover{
+    transform: scale(120%);
+}
+
+.imagens-quemSomos-parcerias{
+    transition: 0.5s;
+    border-radius: 10px;  
+}
+
+.borda-animada{
+    background-image: url(../imagens/backgroundTitle.gif);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+/* CSS MAIN QUEMSOMOS */
+
+/*---------------------CSS main---------------------*/
+
+/*----CSS footer INICIO----*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    justify-content: baseline;
+}
+
+#Contato{
+    font-size: 15px;
+}
+
+.LinkMidiaSocial{
+    justify-content: space-around;
+
+}
+
+.titulo{
+    border-color: #44d62c;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+hr{
+    border-color: #44d62c; 
+}
+
+#logo-footer{
+padding-left: 60px;
+}
+
+#redes-sociais{
+    padding-right: 60px;
+}
+.frase{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.entrar{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #25ff04;
+}
+
+.entrar:hover{
+    background-color: rgb(4, 88, 39);
+}
+
+.mail, .senha{
+    background-color:#25ff04;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+/*----CSS footer FIM----*/
+
+/* responsividade do site */
+@media(min-width:695px){
+    .produtos-home{
+        display: flex;
+    }
+}
+/* responsividade do site */
