@@ -8,12 +8,15 @@ Neste projeto usei apenas as linguagens HTML e CSS.
 
 Não apliquei responsividade, irei me aprofundar nos estudos, e assim que possível irei aplicar e atualizarei o arquivo.
 
-                                                                             -Briefing-
+
+Briefing (Este Briefing é totalmente Fictício)
+
 Nome Da Empresa:
 GamerBaY 
 
 Logo da empresa Criado:
-           
+
+
 
 Porque este tipo de arte?
 Leão: Transmitir mensagem de confiança/liderança
